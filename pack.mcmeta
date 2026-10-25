@@ -1,0 +1,7 @@
+{
+  "pack": {
+    "description": "Deep Nether: the Nether lies directly under the Overworld. Dig through the obsidian at y=-64.",
+    "min_format": 121,
+    "max_format": 121
+  }
+}

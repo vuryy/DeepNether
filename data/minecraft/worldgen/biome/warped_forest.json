@@ -1,0 +1,131 @@
+{
+ "attributes": {
+  "minecraft:audio/ambient_sounds": {
+   "additions": {
+    "sound": "minecraft:ambient.warped_forest.additions",
+    "tick_chance": 0.0111
+   },
+   "loop": "minecraft:ambient.warped_forest.loop",
+   "mood": {
+    "block_search_extent": 8,
+    "offset": 2.0,
+    "sound": "minecraft:ambient.warped_forest.mood",
+    "tick_delay": 6000
+   }
+  },
+  "minecraft:audio/background_music": {
+   "default": {
+    "max_delay": 24000,
+    "min_delay": 12000,
+    "sound": "minecraft:music.nether.warped_forest"
+   }
+  },
+  "minecraft:gameplay/natural_mob_spawns": {
+   "argument": {
+    "spawn_costs": {
+     "minecraft:enderman": {
+      "charge": 1.0,
+      "energy_budget": 0.12
+     }
+    },
+    "spawns_by_category": {
+     "creature": [
+      {
+       "type": "minecraft:strider",
+       "count": {
+        "type": "minecraft:uniform",
+        "max_inclusive": 2,
+        "min_inclusive": 1
+       },
+       "weight": 60
+      }
+     ],
+     "monster": [
+      {
+       "type": "minecraft:enderman",
+       "count": 4,
+       "weight": 1
+      }
+     ]
+    }
+   },
+   "modifier": "overlay"
+  },
+  "minecraft:visual/ambient_particles": {
+   "argument": [
+    {
+     "particle": {
+      "type": "minecraft:warped_spore"
+     },
+     "probability": 0.01428
+    }
+   ],
+   "modifier": "append"
+  },
+  "minecraft:visual/fog_color": "#1a051a",
+  "minecraft:gameplay/bed_rule": {
+   "can_set_spawn": "never",
+   "can_sleep": "never",
+   "destroy_on_use": true
+  },
+  "minecraft:gameplay/can_start_raid": false,
+  "minecraft:gameplay/piglins_zombify": false,
+  "minecraft:gameplay/respawn_anchor_works": true,
+  "minecraft:gameplay/snow_golem_melts": true,
+  "minecraft:gameplay/straw_bed_rule": {
+   "can_set_spawn": "never",
+   "can_sleep": "never",
+   "destroy_on_use": true
+  },
+  "minecraft:gameplay/water_evaporates": true,
+  "minecraft:visual/ambient_light_color": "#302821",
+  "minecraft:visual/default_dripstone_particle": {
+   "type": "minecraft:dripping_dripstone_lava"
+  },
+  "minecraft:visual/fog_end_distance": 96.0,
+  "minecraft:visual/fog_start_distance": 10.0,
+  "minecraft:visual/sky_light_color": "#7a7aff",
+  "minecraft:visual/sky_light_factor": 0.0
+ },
+ "carvers": "minecraft:nether_cave",
+ "downfall": 0.0,
+ "effects": {
+  "water_color": "#3f76e4"
+ },
+ "features": [
+  [],
+  [],
+  [],
+  [],
+  [],
+  [],
+  [],
+  [
+   "deepnether:spring_open",
+   "deepnether:patch_fire",
+   "deepnether:patch_soul_fire",
+   "deepnether:glowstone_extra",
+   "deepnether:glowstone",
+   "deepnether:ore_magma",
+   "deepnether:spring_closed",
+   "deepnether:ore_gravel_nether",
+   "deepnether:ore_blackstone",
+   "deepnether:ore_gold_nether",
+   "deepnether:ore_quartz_nether",
+   "deepnether:ore_ancient_debris_large",
+   "deepnether:ore_debris_small"
+  ],
+  [],
+  [
+   "deepnether:spring_lava",
+   "deepnether:brown_mushroom_normal",
+   "deepnether:red_mushroom_normal",
+   "deepnether:warped_fungi",
+   "deepnether:warped_forest_vegetation",
+   "deepnether:nether_sprouts",
+   "deepnether:twisting_vines"
+  ]
+ ],
+ "has_precipitation": false,
+ "temperature": 2.0
+}

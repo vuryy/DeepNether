@@ -1,0 +1,68 @@
+{
+ "type": "minecraft:cache",
+ "input": {
+  "type": "minecraft:interpolated",
+  "cell_size_xz": 8,
+  "cell_size_y": 1,
+  "input": {
+   "type": "minecraft:lerp",
+   "alpha": {
+    "type": "minecraft:gradient",
+    "axis": "y",
+    "from_coordinate": -196,
+    "from_value": 0.0,
+    "to_coordinate": -164,
+    "to_value": 1.0
+   },
+   "first": 2.5,
+   "second": {
+    "type": "minecraft:lerp",
+    "alpha": {
+     "type": "minecraft:gradient",
+     "axis": "y",
+     "from_coordinate": -84,
+     "from_value": 1.0,
+     "to_coordinate": -60,
+     "to_value": 0.0
+    },
+    "first": 0.9375,
+    "second": {
+     "type": "minecraft:add",
+     "left": {
+      "type": "minecraft:add",
+      "left": {
+       "type": "minecraft:mul",
+       "left": {
+        "type": "minecraft:noise",
+        "noise": "deepnether:pillars",
+        "xz_scale": 1.0,
+        "y_scale": 0.45,
+        "shift_y": -1.8
+       },
+       "right": 2.4
+      },
+      "right": {
+       "type": "minecraft:mul",
+       "left": {
+        "type": "minecraft:noise",
+        "noise": "deepnether:ledges",
+        "xz_scale": 0.6,
+        "y_scale": 2.2,
+        "shift_y": -8.8
+       },
+       "right": 0.9
+      }
+     },
+     "right": {
+      "type": "minecraft:gradient",
+      "axis": "y",
+      "from_coordinate": -156,
+      "from_value": 0.25,
+      "to_coordinate": -84,
+      "to_value": -0.5
+     }
+    }
+   }
+  }
+ }
+}

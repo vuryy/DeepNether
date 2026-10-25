@@ -1,0 +1,14 @@
+{
+ "elements": [
+  {
+   "weight": 1,
+   "element": {
+    "element_type": "minecraft:single_pool_element",
+    "location": "deepnether:fortress/start",
+    "processors": "deepnether:fortress",
+    "projection": "rigid"
+   }
+  }
+ ],
+ "fallback": "minecraft:empty"
+}

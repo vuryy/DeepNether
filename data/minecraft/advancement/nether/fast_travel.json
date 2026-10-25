@@ -1,0 +1,29 @@
+{
+ "parent": "minecraft:nether/root",
+ "criteria": {
+  "travelled": {
+   "trigger": "minecraft:impossible"
+  }
+ },
+ "display": {
+  "description": {
+   "text": "Travel 875 blocks through the Nether in one trip"
+  },
+  "frame": "challenge",
+  "icon": {
+   "id": "minecraft:map"
+  },
+  "title": {
+   "translate": "advancements.nether.fast_travel.title"
+  }
+ },
+ "requirements": [
+  [
+   "travelled"
+  ]
+ ],
+ "rewards": {
+  "experience": 100
+ },
+ "sends_telemetry_event": true
+}

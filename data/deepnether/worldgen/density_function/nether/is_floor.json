@@ -1,0 +1,15 @@
+{
+ "type": "minecraft:cache",
+ "input": {
+  "type": "minecraft:mul",
+  "left": 100000.0,
+  "right": {
+   "type": "minecraft:min",
+   "left": "deepnether:nether/dp0",
+   "right": {
+    "type": "minecraft:negate",
+    "input": "deepnether:nether/dp1"
+   }
+  }
+ }
+}
