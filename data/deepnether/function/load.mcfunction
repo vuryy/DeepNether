@@ -6,4 +6,6 @@ scoreboard players set #installed deepnether 1
 scoreboard objectives add deepnether.x dummy
 scoreboard objectives add deepnether.z dummy
 scoreboard objectives add deepnether.d dummy
+scoreboard objectives add deepnether.deaths deathCount
+scoreboard objectives add deepnether.alive minecraft.custom:minecraft.time_since_death
 schedule function deepnether:travel 10t replace
