@@ -1,0 +1,50 @@
+{
+ "fallback": "deepnether:fortress/end",
+ "elements": [
+  {
+   "weight": 46,
+   "element": {
+    "element_type": "minecraft:single_pool_element",
+    "location": "deepnether:fortress/b1/bridge_crossing_n",
+    "processors": "deepnether:fortress",
+    "projection": "rigid"
+   }
+  },
+  {
+   "weight": 150,
+   "element": {
+    "element_type": "minecraft:single_pool_element",
+    "location": "deepnether:fortress/b1/bridge_straight_n",
+    "processors": "deepnether:fortress",
+    "projection": "rigid"
+   }
+  },
+  {
+   "weight": 37,
+   "element": {
+    "element_type": "minecraft:single_pool_element",
+    "location": "deepnether:fortress/b1/room_crossing_n",
+    "processors": "deepnether:fortress",
+    "projection": "rigid"
+   }
+  },
+  {
+   "weight": 23,
+   "element": {
+    "element_type": "minecraft:single_pool_element",
+    "location": "deepnether:fortress/b1/stairs_room_n",
+    "processors": "deepnether:fortress",
+    "projection": "rigid"
+   }
+  },
+  {
+   "weight": 23,
+   "element": {
+    "element_type": "minecraft:single_pool_element",
+    "location": "deepnether:fortress/b1/stairs_room_s",
+    "processors": "deepnether:fortress",
+    "projection": "rigid"
+   }
+  }
+ ]
+}

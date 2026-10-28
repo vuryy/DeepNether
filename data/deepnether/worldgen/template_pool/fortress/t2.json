@@ -1,0 +1,95 @@
+{
+ "fallback": "deepnether:fortress/t2_fb",
+ "elements": [
+  {
+   "weight": 139,
+   "element": {
+    "element_type": "minecraft:single_pool_element",
+    "location": "deepnether:fortress/t2/bridge_straight_0_n",
+    "processors": "deepnether:fortress",
+    "projection": "rigid"
+   }
+  },
+  {
+   "weight": 28,
+   "element": {
+    "element_type": "minecraft:single_pool_element",
+    "location": "deepnether:fortress/t2/bridge_crossing_0_n",
+    "processors": "deepnether:fortress",
+    "projection": "rigid"
+   }
+  },
+  {
+   "weight": 28,
+   "element": {
+    "element_type": "minecraft:single_pool_element",
+    "location": "deepnether:fortress/t2/bridge_crossing_1_n",
+    "processors": "deepnether:fortress",
+    "projection": "rigid"
+   }
+  },
+  {
+   "weight": 28,
+   "element": {
+    "element_type": "minecraft:single_pool_element",
+    "location": "deepnether:fortress/t2/bridge_crossing_2_n",
+    "processors": "deepnether:fortress",
+    "projection": "rigid"
+   }
+  },
+  {
+   "weight": 9,
+   "element": {
+    "element_type": "minecraft:single_pool_element",
+    "location": "deepnether:fortress/t2/room_crossing_0_n",
+    "processors": "deepnether:fortress",
+    "projection": "rigid"
+   }
+  },
+  {
+   "weight": 9,
+   "element": {
+    "element_type": "minecraft:single_pool_element",
+    "location": "deepnether:fortress/t2/room_crossing_1_n",
+    "processors": "deepnether:fortress",
+    "projection": "rigid"
+   }
+  },
+  {
+   "weight": 9,
+   "element": {
+    "element_type": "minecraft:single_pool_element",
+    "location": "deepnether:fortress/t2/room_crossing_2_n",
+    "processors": "deepnether:fortress",
+    "projection": "rigid"
+   }
+  },
+  {
+   "weight": 14,
+   "element": {
+    "element_type": "minecraft:single_pool_element",
+    "location": "deepnether:fortress/t2/stairs_room_0_n",
+    "processors": "deepnether:fortress",
+    "projection": "rigid"
+   }
+  },
+  {
+   "weight": 14,
+   "element": {
+    "element_type": "minecraft:single_pool_element",
+    "location": "deepnether:fortress/t2/stairs_room_0_s",
+    "processors": "deepnether:fortress",
+    "projection": "rigid"
+   }
+  },
+  {
+   "weight": 150,
+   "element": {
+    "element_type": "minecraft:single_pool_element",
+    "location": "deepnether:fortress/monster_throne_n",
+    "processors": "deepnether:fortress",
+    "projection": "rigid"
+   }
+  }
+ ]
+}

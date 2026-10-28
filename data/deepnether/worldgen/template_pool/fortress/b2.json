@@ -1,0 +1,128 @@
+{
+ "fallback": "deepnether:fortress/end",
+ "elements": [
+  {
+   "weight": 30,
+   "element": {
+    "element_type": "minecraft:single_pool_element",
+    "location": "deepnether:fortress/b2/bridge_crossing_n",
+    "processors": "deepnether:fortress",
+    "projection": "rigid"
+   }
+  },
+  {
+   "weight": 1,
+   "element": {
+    "element_type": "minecraft:single_pool_element",
+    "location": "deepnether:fortress/end/14_n",
+    "processors": "deepnether:fortress",
+    "projection": "rigid"
+   }
+  },
+  {
+   "weight": 1,
+   "element": {
+    "element_type": "minecraft:single_pool_element",
+    "location": "deepnether:fortress/end/11_n",
+    "processors": "deepnether:fortress",
+    "projection": "rigid"
+   }
+  },
+  {
+   "weight": 1,
+   "element": {
+    "element_type": "minecraft:single_pool_element",
+    "location": "deepnether:fortress/end/5_s",
+    "processors": "deepnether:fortress",
+    "projection": "rigid"
+   }
+  },
+  {
+   "weight": 1,
+   "element": {
+    "element_type": "minecraft:single_pool_element",
+    "location": "deepnether:fortress/end/2_n",
+    "processors": "deepnether:fortress",
+    "projection": "rigid"
+   }
+  },
+  {
+   "weight": 1,
+   "element": {
+    "element_type": "minecraft:single_pool_element",
+    "location": "deepnether:fortress/end/1_n",
+    "processors": "deepnether:fortress",
+    "projection": "rigid"
+   }
+  },
+  {
+   "weight": 1,
+   "element": {
+    "element_type": "minecraft:single_pool_element",
+    "location": "deepnether:fortress/end/10_s",
+    "processors": "deepnether:fortress",
+    "projection": "rigid"
+   }
+  },
+  {
+   "weight": 1,
+   "element": {
+    "element_type": "minecraft:single_pool_element",
+    "location": "deepnether:fortress/end/1_s",
+    "processors": "deepnether:fortress",
+    "projection": "rigid"
+   }
+  },
+  {
+   "weight": 1,
+   "element": {
+    "element_type": "minecraft:single_pool_element",
+    "location": "deepnether:fortress/end/6_n",
+    "processors": "deepnether:fortress",
+    "projection": "rigid"
+   }
+  },
+  {
+   "weight": 150,
+   "element": {
+    "element_type": "minecraft:single_pool_element",
+    "location": "deepnether:fortress/b2/bridge_straight_n",
+    "processors": "deepnether:fortress",
+    "projection": "rigid"
+   }
+  },
+  {
+   "weight": 43,
+   "element": {
+    "element_type": "minecraft:single_pool_element",
+    "location": "deepnether:fortress/b2/room_crossing_n",
+    "processors": "deepnether:fortress",
+    "projection": "rigid"
+   }
+  },
+  {
+   "weight": 21,
+   "element": {
+    "element_type": "minecraft:single_pool_element",
+    "location": "deepnether:fortress/b2/stairs_room_n",
+    "processors": "deepnether:fortress",
+    "projection": "rigid"
+   }
+  },
+  {
+   "weight": 21,
+   "element": {
+    "element_type": "minecraft:single_pool_element",
+    "location": "deepnether:fortress/b2/stairs_room_s",
+    "processors": "deepnether:fortress",
+    "projection": "rigid"
+   }
+  },
+  {
+   "weight": 4,
+   "element": {
+    "element_type": "minecraft:empty_pool_element"
+   }
+  }
+ ]
+}

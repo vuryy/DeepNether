@@ -1,0 +1,16 @@
+{
+ "feature": "deepnether:fortress_pillar",
+ "placement": [
+  {
+   "type": "minecraft:offset",
+   "x": -2,
+   "y": 0,
+   "z": -2
+  },
+  {
+   "type": "minecraft:cuboid",
+   "xz_size": 4,
+   "y_size": 1
+  }
+ ]
+}

@@ -1,0 +1,13 @@
+{
+ "fallback": "deepnether:fortress/pillars/s2_fb",
+ "elements": [
+  {
+   "weight": 1,
+   "element": {
+    "element_type": "minecraft:feature_pool_element",
+    "feature": "deepnether:fortress_pillar_s2",
+    "projection": "rigid"
+   }
+  }
+ ]
+}

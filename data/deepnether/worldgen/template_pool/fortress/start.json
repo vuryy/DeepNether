@@ -1,14 +1,32 @@
 {
+ "fallback": "deepnether:fortress/end",
  "elements": [
   {
-   "weight": 1,
+   "weight": 150,
    "element": {
     "element_type": "minecraft:single_pool_element",
-    "location": "deepnether:fortress/start",
+    "location": "deepnether:fortress/start_0_n",
+    "processors": "deepnether:fortress",
+    "projection": "rigid"
+   }
+  },
+  {
+   "weight": 150,
+   "element": {
+    "element_type": "minecraft:single_pool_element",
+    "location": "deepnether:fortress/start_1_n",
+    "processors": "deepnether:fortress",
+    "projection": "rigid"
+   }
+  },
+  {
+   "weight": 150,
+   "element": {
+    "element_type": "minecraft:single_pool_element",
+    "location": "deepnether:fortress/start_2_n",
     "processors": "deepnether:fortress",
     "projection": "rigid"
    }
   }
- ],
- "fallback": "minecraft:empty"
+ ]
 }
